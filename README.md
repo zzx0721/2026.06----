@@ -184,8 +184,3 @@ python -m task2_act.evaluate_action_l1 \
   --output-dir /data/cv_hw3_task2/eval_downloaded_weights
 ```
 
-## 外部链接
-
-- Public GitHub Repository: `<GITHUB_REPOSITORY_URL>`
-- Model Weights: `<MODEL_WEIGHTS_URL>`
-- Experiment Report: `report/task2_report.pdf`
