@@ -1,0 +1,23 @@
+name: cv_hw3_act
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - "torch>=2.7,<2.11"
+      - "torchvision>=0.22,<0.26"
+      - "lerobot[matplotlib-dep]==0.5.1"
+      - numpy
+      - pandas
+      - pyarrow
+      - pillow
+      - matplotlib
+      - pyyaml
+      - tqdm
+      - wandb
+      - pytest
+      - huggingface_hub
+      - hf_xet

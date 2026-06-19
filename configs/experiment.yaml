@@ -1,0 +1,30 @@
+seed: 42
+fps: 10
+image_size: [200, 200]
+train_frames_total: 120000
+abc_frames_per_scene: 40000
+eval_frames: 40000
+
+datasets:
+  source_repo: xiaoma26/calvin-lerobot
+  b:
+    split_roots: [splitB]
+    target_frames: 120000
+  abc:
+    split_roots: [splitA, splitB, splitC]
+    frames_per_split: 40000
+  d_eval:
+    split_roots: [splitD]
+    target_frames: 40000
+
+act:
+  batch_size: 8
+  steps: 100000
+  save_freq: 20000
+  log_freq: 100
+  chunk_size: 50
+  n_action_steps: 10
+  lr: 0.00001
+  weight_decay: 0.0001
+  vision_backbone: resnet18
+  pretrained_backbone_weights: ResNet18_Weights.IMAGENET1K_V1

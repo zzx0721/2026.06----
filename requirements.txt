@@ -1,0 +1,12 @@
+torch>=2.7,<2.11
+torchvision>=0.22,<0.26
+lerobot==0.5.1
+numpy
+pandas
+pyarrow
+pillow
+matplotlib
+pyyaml
+tqdm
+wandb
+huggingface_hub
